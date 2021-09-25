@@ -1,0 +1,15 @@
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\bin\Debug\netstandard2.0\POASTSuite.deps.json
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\bin\Debug\netstandard2.0\POASTSuite.dll
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.csprojAssemblyReference.cache
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfoInputs.cache
+C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfo.cs
