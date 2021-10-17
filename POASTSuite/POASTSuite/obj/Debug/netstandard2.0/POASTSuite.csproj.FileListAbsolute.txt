@@ -13,3 +13,34 @@ C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfoInputs.cache
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\FirstIterationPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\FletcherReevesMainPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage1.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage10.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage11.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage12.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage2.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage3.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage4.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage5.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage6.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage7.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage8.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\Questions\QuestionPage9.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\ScorePage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Fletcher_Reeves\SecondIterationPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\UserConfirmationPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.csproj.CoreCompileInputs.cache

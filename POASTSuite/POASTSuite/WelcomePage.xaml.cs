@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POASTSuite.Fletcher_Reeves;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,13 @@ namespace POASTSuite
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WelcomePage : ContentPage
     {
+        string Username;
         public WelcomePage(string username)
         {
             SetValue(NavigationPage.HasNavigationBarProperty, false);
             InitializeComponent();
             LabelHelloFriend.Text = username;
+            Username = username;
         }
 
         private void WelcomeStartTechniqueButton_Clicked(object sender, EventArgs e)
@@ -52,8 +55,7 @@ namespace POASTSuite
                 neldermeadcheckbox.IsChecked = false;
                 DfpCheckbox.IsChecked = false;
                 hookesandjeevesCheckbox.IsChecked = false;
-              //  Navigation.PushAsync(new FletcherAndReeves());
-                //Iruoma please change MainPage to your very first page for FR
+                Navigation.PushModalAsync(new FletcherReevesMainPage(Username));
             }
             else
             {

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.Fletcher_Reeves.Questions.QuestionPage7">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="90" BackgroundColor="Black" Margin="0,0,0,20">
+                    <Label Text="QUESTION" FontAttributes="Bold" FontSize="30" TextColor="Yellow"
+                   HorizontalTextAlignment="Center"/>
+                </Frame>
+                <StackLayout Margin="0,50">
+                    <StackLayout Orientation="Vertical" >
+                        <Label FontSize="20" FontAttributes="Bold" TextColor="Black" Margin="10,0">
+                            Minimize the function
+                        </Label>
+                        <Label x:Name="functionDisplay" FontAttributes="Bold" FontSize="20" TextColor="Black" Margin="0"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="10,0">
+                        <Label FontSize="20" FontAttributes="Bold" TextColor="Black">beginning from X (</Label>
+                        <Label x:Name="xValue" FontAttributes="Bold" FontSize="20" TextColor="Black"></Label>
+                        <Label FontSize="20" FontAttributes="Bold" TextColor="Black">,</Label>
+                        <Label x:Name="yValue" FontAttributes="Bold" FontSize="20" TextColor="Black"></Label>
+                        <Label FontSize="20" FontAttributes="Bold" TextColor="Black">)</Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button x:Name="solveButton" Text="solve" HeightRequest="70" Style="{StaticResource questionButton}"
+                    Margin="30,30" Clicked="solveButton_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

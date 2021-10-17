@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.Fletcher_Reeves.FletcherReevesMainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Frame BackgroundColor="Black" Padding="50" Margin="0,0,0,50" CornerRadius="0">
+                    <Label Text="Welcome to The Fletcher-Reeves Module" TextColor="Yellow"
+                   HorizontalTextAlignment="Center" 
+                   FontAttributes="Bold"
+                   FontSize="36"/>
+                </Frame>
+                <Label HorizontalTextAlignment="Center" 
+               FontAttributes="Bold" 
+               TextColor="Black" 
+               FontSize="Large">Pick a number to start solving</Label>
+                <Grid VerticalOptions="CenterAndExpand" Margin="5,0,5,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition>
+                        </RowDefinition>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="question1" Text="1" Clicked="question1_Clicked" Style="{StaticResource questionButton}" />
+                    <Button x:Name="question2" Clicked="question2_Clicked" Grid.Row="0" Grid.Column="1" Text="2" Style="{StaticResource questionButton}" />
+                    <Button x:Name="question3" Clicked="question3_Clicked" Grid.Row="0" Grid.Column="2" Text="3" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question4" Clicked="question4_Clicked" Grid.Row="1" Grid.Column="0" Text="4" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question5" Clicked="question5_Clicked" Grid.Row="1" Grid.Column="1" Text="5" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question6" Clicked="question6_Clicked" Grid.Row="1" Grid.Column="2" Text="6" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question7" Clicked="question7_Clicked" Grid.Row="2" Grid.Column="0" Text="7" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question8" Clicked="question8_Clicked" Grid.Row="2" Grid.Column="1" Text="8" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question9" Clicked="question9_Clicked" Grid.Row="2" Grid.Column="2" Text="9" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question10" Clicked="question10_Clicked" Grid.Row="3" Grid.Column="0" Text="10" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question11" Clicked="question11_Clicked" Grid.Row="3" Grid.Column="1" Text="11" Style="{StaticResource questionButton}"/>
+                    <Button x:Name="question12" Clicked="question12_Clicked" Grid.Row="3" Grid.Column="2" Text="12" Style="{StaticResource questionButton}"/>
+
+                </Grid>
+                <Label VerticalOptions="End" HorizontalOptions="Center" 
+               FontAttributes="Bold"
+               TextColor="Black"
+               Text="Developed by Iruoma J. Onyia || Supervised by Prof. Ayo O.Kuye" 
+               FontSize="12" Margin="10"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.Fletcher_Reeves.ScorePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="Black" Padding="50" Margin="0,0,0,50" CornerRadius="0">
+                    <Label Text="Fletcher-Reeves Module" TextColor="Yellow"
+                   HorizontalTextAlignment="Center" 
+                   FontAttributes="Bold"
+                   FontSize="36"/>
+                </Frame>
+                <StackLayout VerticalOptions="CenterAndExpand">
+
+                    <Label x:Name="message" FontAttributes="Bold"
+                   FontSize="28" TextColor="Black" HorizontalOptions="Center"/>
+                    <Label Text="YOU SCORED" FontAttributes="Bold" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
+                    <Label x:Name="score"
+                   FontAttributes="Bold"
+                   FontSize="Header" TextColor="Black" HorizontalOptions="Center"/>
+                    <Button x:Name="done" Text="Done" Clicked="done_Clicked" 
+                    Style="{StaticResource questionButton}"
+                    HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label VerticalOptions="EndAndExpand" HorizontalOptions="Center" 
+               FontAttributes="Bold"
+               TextColor="Black"
+               Text="Developed by Iruoma J. Onyia || Supervised by Prof. Ayo O.Kuye" 
+               FontSize="12" Margin="10"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

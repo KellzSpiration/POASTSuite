@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.Fletcher_Reeves.SecondIterationPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="60" BackgroundColor="Black" Margin="0,0,0,10">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="ITERATION"
+                           FontSize="30"
+                           TextColor="Yellow"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                        <Label x:Name="iterationNumber" 
+                           FontSize="30"
+                           TextColor="Yellow"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Margin="0,20">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0" 
+                           Text="The value of g1" 
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                        <Entry  x:Name="gOne" 
+                            HorizontalOptions="FillAndExpand" 
+                            HorizontalTextAlignment="Center"
+                            Keyboard="Telephone"
+                            TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0" 
+                           Text="The value of g2"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                        <Entry x:Name="gTwo" 
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Telephone"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0"
+                           FontAttributes="Bold"
+                           Text="The value of s1" 
+                           TextColor="Black"/>
+                        <Entry x:Name="sOne" 
+                           HorizontalOptions="FillAndExpand"
+                           HorizontalTextAlignment="Center"
+                           Keyboard="Telephone"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0"
+                           FontAttributes="Bold"
+                           Text="The value of s2" 
+                           TextColor="Black"/>
+                        <Entry x:Name="sTwo" 
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Telephone"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="30,0,10,0"
+                           Text="The value of Lambda"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                        <Entry x:Name="lambda"
+                           HorizontalOptions="FillAndExpand" 
+                           Keyboard="Telephone"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0" 
+                           Text="The value of x1" 
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                        <Entry x:Name="x1Value" 
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Telephone"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,20,0"
+                           FontAttributes="Bold"
+                           Text="The value of x2"
+                           TextColor="Black"/>
+                        <Entry x:Name="x2Value"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Telephone" 
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black" Margin="0,0,10,0"></Entry>
+                    </StackLayout>
+                </StackLayout>
+                <Button x:Name="scorePage" Margin="20,0,20,20" Style="{StaticResource questionButton}"
+                    HeightRequest="70" Text="next" Clicked="scorePage_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
