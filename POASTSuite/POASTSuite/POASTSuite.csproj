@@ -7,12 +7,12 @@
 
   <ItemGroup>
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2125" />  
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Update="Fletcher_Reeves\Questions\QuestionPage1.xaml.cs">
       <DependentUpon>QuestionPage1.xaml</DependentUpon>
     </Compile>
@@ -65,7 +65,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Fletcher_Reeves\SecondIterationPage.xaml">
-=======
+    
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\GradePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -172,7 +174,7 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionTwo\ItereationThree.xaml">
->>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
+
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LoginPage.xaml">

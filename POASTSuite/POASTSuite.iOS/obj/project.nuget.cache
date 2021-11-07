@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "jUioWSLYWk1wtbT6M2Eaiqi+3n2+5SFtLmRb7n2Fiu075YiA8e5Qdpq1fduwGKQZ80H1NPYeX0Zc34Sle1Qvdw==",
-=======
-  "dgSpecHash": "Uw7nYSISkMPw2z1EtpxrjJ1aWG7wNsUbUJpMa+myw5wSPdb1GB4iq6qvrS8OyWM4ZyB9kyQGOhhFPQxpyeHzAg==",
->>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
+  "dgSpecHash": "1Md8R/CKDtMbGNipoZwmY7hePK3RlXpbbYCIF1r5qOdZw7AVabBk63cW9Q76qUNfX0duNKU7kkc3FGbd8ZYWQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
   "expectedPackageFiles": [
@@ -36,7 +32,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2125 to 4.6.0.1141. Reference the package directly from the project to select a different version. \r\n POASTSuite.iOS -> POASTSuite -> Xamarin.Forms (>= 5.0.0.2125) \r\n POASTSuite.iOS -> Xamarin.Forms (>= 4.6.0.1141)",
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2196 to 4.6.0.1141. Reference the package directly from the project to select a different version. \r\n POASTSuite.iOS -> POASTSuite -> Xamarin.Forms (>= 5.0.0.2196) \r\n POASTSuite.iOS -> Xamarin.Forms (>= 4.6.0.1141)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

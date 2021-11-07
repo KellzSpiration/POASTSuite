@@ -43,7 +43,8 @@ namespace POASTSuite.Fletcher_Reeves
 
         async private void question5_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new QuestionPage5(username));        }
+            await Navigation.PushModalAsync(new QuestionPage5(username));
+        }
 
         async private void question6_Clicked(object sender, EventArgs e)
         {

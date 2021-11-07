@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Su49W+iczFRZPbE18q/WDFOCav04bfqY2C5HmypZ2L4E/PY1oJu0RRs+bkNHLlPHlyZjJW2kYD6P+6gk8ee+Zg==",
-=======
-  "dgSpecHash": "wQZ+Q/3qvEC1FMNnANqbJozkgpgH+vADp6Tdadz8OC0S/3IyF6V5BnP3Tg0Ios81cpPZBTni7owutVA/yA7ygw==",
->>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
+  "dgSpecHash": "5KizoqSWnbrFilbhMdGc+8bND9ic7dtkoRqbpw/nI43VJa7cR/mfiHv9o8FA3s02BW9C/ElrijDUPD4Wnvagww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj",
   "expectedPackageFiles": [
@@ -19,13 +15,8 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-<<<<<<< HEAD
     "C:\\Users\\Asus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512"
-=======
-    "C:\\Users\\Asus\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
->>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
+    "C:\\Users\\Asus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
