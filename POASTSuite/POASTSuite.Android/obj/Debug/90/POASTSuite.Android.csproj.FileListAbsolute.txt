@@ -1,0 +1,10 @@
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\build.props
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\adb.props
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\POASTSuite.Android.csprojAssemblyReference.cache
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\res.flag
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\R.txt
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\R.cs.flag
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\POASTSuite.Android.csproj.CoreCompileInputs.cache

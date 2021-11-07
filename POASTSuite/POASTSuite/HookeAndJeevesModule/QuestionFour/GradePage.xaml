@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.HookeAndJeevesModule.QuestionFour.GradePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Margin="0">
+            <StackLayout BackgroundColor="Black">
+                <Label Text="HOOKE-JEEVES' MODULE" HorizontalOptions="CenterAndExpand" 
+                       TextColor="DarkGoldenrod"
+                       FontAttributes="Bold" FontSize="33" Margin="4"/>
+
+            </StackLayout>
+
+
+
+            <Label  Text="You Scored"  Margin="50" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="50"  VerticalOptions="Center" />
+            <Label x:Name="UserScore"  Margin="50,0,50,0" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Header" TextColor="White"/>
+
+
+
+            <StackLayout Margin="20,30,20,0">
+                <Button x:Name="ReviewAndGrade" BorderWidth="4" BorderColor="DarkGoldenrod"  Text="Grade User" IsEnabled="True" CornerRadius="20" Margin="0,0"
+                        FontAttributes="Bold"
+                        FontSize="20" BackgroundColor="Black" TextColor="DarkGoldenrod" Clicked="ReviewAndGrade_Clicked"
+                         />
+                <Button x:Name="BackButtonIterationFourPage" BorderWidth="4" BorderColor="DarkGoldenrod"  Text="BACK" IsEnabled="True"  CornerRadius="20" Margin="0,0"
+                        FontAttributes="Bold"
+                        FontSize="20" BackgroundColor="Black" TextColor="DarkGoldenrod" 
+                         />
+                <Button x:Name="ExitHJModule" BorderWidth="4" BorderColor="DarkGoldenrod"  Text="EXIT HJ MODULE" IsEnabled="True"  CornerRadius="20" Margin="0,0"
+                        FontAttributes="Bold"
+                        FontSize="20" BackgroundColor="Black" TextColor="DarkGoldenrod"
+                  Clicked="ExitHJModule_Clicked"
+                         />
+
+            </StackLayout>
+
+            <Label Text="Developed by Kelechi Orji || Supervised by Prof A.O Kuye" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" TextColor="White" Margin="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

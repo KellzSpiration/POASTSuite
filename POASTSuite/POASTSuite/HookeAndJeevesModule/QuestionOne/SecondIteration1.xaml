@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.HookeAndJeevesModule.QuestionOne.SecondIteration1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Margin="0,10,0,0">
+                <Label Text="HOOKES AND JEEVES METHOD" HorizontalOptions="Center" FontSize="25" Margin="0,0,0,15" FontAttributes="Bold" TextColor="DarkGoldenrod"></Label>
+
+                <Grid ColumnSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="2nd Iteration" Margin="0,20,0,0" TextColor="White" FontAttributes="Bold" Grid.Row="1" HorizontalTextAlignment="Center" Grid.Column="1" BackgroundColor="DarkGoldenrod"/>
+                    <Label Text="Local Search" TextColor="Black" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" Margin="10,0,0,0" />
+
+                    <Frame Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,5,0">
+                        <Label Text="f(x+h1 ,y) =" HorizontalTextAlignment="Center" TextColor="Black"  />
+                    </Frame>
+
+                    <Entry x:Name="UpFX2" BackgroundColor="PaleGoldenrod" PlaceholderColor="White"  Keyboard="Numeric" HorizontalTextAlignment="Center" TextColor="Black" Placeholder="input value" Grid.Row="3" Grid.Column="2" Margin="0,0,10,0" />
+
+                    <Frame Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,5,0">
+                        <Label Text="f(x-h1 , y) =" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    </Frame>
+
+                    <Entry x:Name="LowFX2" BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center" TextColor="Black" Placeholder="input value" Grid.Row="4" Grid.Column="2" Margin="0,0,10,0" />
+
+                    <Frame Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,5,0">
+                        <Label Text="f(x, y+h2) =" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    </Frame>
+
+                    <Entry x:Name="UpFY2"   BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center" TextColor="Black" Placeholder="input value" Grid.Row="5" Grid.Column="2" Margin="0,0,10,0" />
+
+                    <Frame Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,5,0">
+                        <Label Text="f(x , y-h2) =" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    </Frame>
+
+                    <Entry x:Name="LowFY2" TextColor="Black" BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center"  Placeholder="input value" Grid.Row="6" Grid.Column="2" Margin="0,0,10,0" />
+
+
+                    <Label Text="Best Point" FontAttributes="Bold" TextColor="Black" Grid.Row="7" Grid.Column="0" Margin="10,0,0,0" />
+                    <Frame Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,5,0">
+                        <Label Text="f(x , y) =" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    </Frame>
+
+                    <Entry x:Name="Bp2" TextColor="Black" BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center" Placeholder="input value" Grid.Row="8" Grid.Column="2" Margin="0,0,10,0" />
+
+
+                    <Label Text="Temporary Head" TextColor="Black" FontAttributes="Bold" Grid.Row="9" Grid.Column="0" Margin="10,0,0,0" />
+                    <Frame Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,0,0">
+                        <Label Text="f(x , y) =" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    </Frame>
+
+                    <Entry x:Name="Th2"  TextColor="Black" BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center" Placeholder="input value" Grid.Row="10" Grid.Column="2" Margin="0,0,10,0" />
+
+                    <Button Text="Back" TextColor="White" FontAttributes="Bold" CornerRadius="20" Margin="10,30,0,0" BackgroundColor="ForestGreen"    Grid.Column="0" Grid.Row="11"/>
+                    <Button x:Name="BtnNext" Text="Next" Clicked="BtnNext_Clicked"  TextColor="White" FontAttributes="Bold" CornerRadius="20" Margin="0,30,10,0" BackgroundColor="ForestGreen" Grid.Column="2" Grid.Row="11"/>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

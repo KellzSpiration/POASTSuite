@@ -13,3 +13,11 @@ C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfoInputs.cache
 C:\Users\KellzSpiration\source\repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.AssemblyInfo.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\FifthIteration1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\FirstIteration1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\FourthIteration1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\GradePage1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\SecondIteration1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\HookeAndJeevesModule\QuestionOne\ThirdIteration1.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\UserConfirmationPage.xaml.g.cs
+C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.csproj.CoreCompileInputs.cache
