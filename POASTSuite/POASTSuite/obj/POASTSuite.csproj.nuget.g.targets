@@ -4,7 +4,11 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2125\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2125\buildTransitive\Xamarin.Forms.targets')" />
+=======
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.6.0.1141\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.6.0.1141\buildTransitive\Xamarin.Forms.targets')" />
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   </ImportGroup>
 </Project>

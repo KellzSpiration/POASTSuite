@@ -1,5 +1,8 @@
-﻿using System;
+﻿using POASTSuite.Table;
+using SQLite;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +20,7 @@ namespace POASTSuite
             InitializeComponent();
         }
 
-        private void RegisterButton_Clicked(object sender, EventArgs e)
+       async private void RegisterButton_Clicked(object sender, EventArgs e)
         {
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDataBase.db");
             var db = new SQLiteConnection(dbpath);
@@ -46,7 +49,7 @@ namespace POASTSuite
 
         }
 
-        private void RegisterSignInButton_Clicked(object sender, EventArgs e)
+       async private void RegisterSignInButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new LoginPage());
         }

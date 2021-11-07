@@ -13,8 +13,8 @@ namespace POASTSuite
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            
+            MainPage = new NavigationPage(new PoastMainPage());
         }
 
         protected override void OnStart()

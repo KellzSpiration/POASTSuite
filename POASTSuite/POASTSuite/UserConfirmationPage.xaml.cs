@@ -18,5 +18,10 @@ namespace POASTSuite
             EntryConfirmUsername.Text = parameterusername;
             EntryConfirmMatnumber.Text = parametermatno;
         }
+
+        async private void ConfirmButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
     }
 }

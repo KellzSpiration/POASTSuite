@@ -1,22 +1,38 @@
 bundleassemblies=false
 aotassemblies=false
+<<<<<<< HEAD
 androidaddkeepalives=
+=======
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
 androidaotmode=none
 androidembedprofilers=
 androidenableprofiledaot=
 androiddextool=d8
 androidlinktool=
+<<<<<<< HEAD
 androidlinkresources=
 androidpackageformat=apk
 embedassembliesintoapk=false
 androidlinkmode=none
 androidlinkskip=
 androidsdkbuildtoolsversion=30.0.2
+=======
+androidpackageformat=apk
+usesharedruntime=true
+embedassembliesintoapk=false
+androidlinkmode=none
+androidlinkskip=
+androidsdkbuildtoolsversion=29.0.2
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
 androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
 javasdkpath=c:\program files\android\jdk\microsoft_dist_openjdk_1.8.0.25\
 androidsequencepointsmode=none
+<<<<<<< HEAD
 xamarinandroidversion=11.3.0-4
+=======
+xamarinandroidversion=11.0.2-0
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v9.0
@@ -25,7 +41,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD
 _nugetassetstimestamp=637700743534971480
+=======
+_nugetassetstimestamp=637698915345487946
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a

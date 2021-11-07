@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jUioWSLYWk1wtbT6M2Eaiqi+3n2+5SFtLmRb7n2Fiu075YiA8e5Qdpq1fduwGKQZ80H1NPYeX0Zc34Sle1Qvdw==",
+=======
+  "dgSpecHash": "Uw7nYSISkMPw2z1EtpxrjJ1aWG7wNsUbUJpMa+myw5wSPdb1GB4iq6qvrS8OyWM4ZyB9kyQGOhhFPQxpyeHzAg==",
+>>>>>>> 8119e97752e298b7ae05769a4c73a9b5f7d3213c
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
   "expectedPackageFiles": [
