@@ -26,7 +26,7 @@ namespace POASTSuite.HookeAndJeevesModule.QuestionSix
 
        async private void ExitHJModule_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new IterationOne());
+            await Navigation.PushModalAsync(new IterationOneQ6());
         }
     }
 }

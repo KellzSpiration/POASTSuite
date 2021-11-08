@@ -73,7 +73,7 @@
                     <Entry x:Name="Th4"  TextColor="Black" BackgroundColor="PaleGoldenrod" PlaceholderColor="White" Keyboard="Numeric" HorizontalTextAlignment="Center" Placeholder="input value" Grid.Row="10" Grid.Column="2" Margin="0,0,10,0" />
 
                     <Button Text="Back" TextColor="White" FontAttributes="Bold" CornerRadius="20" Margin="10,30,0,0" BackgroundColor="ForestGreen"    Grid.Column="0" Grid.Row="11"/>
-                    <Button x:Name="BtnNext" Text="Next" Clicked=""  TextColor="White" FontAttributes="Bold" CornerRadius="20" Margin="0,30,10,0" BackgroundColor="ForestGreen" Grid.Column="2" Grid.Row="11"/>
+                    <Button x:Name="BtnNext" Text="Next" Clicked="BtnNext_Clicked_1"   TextColor="White" FontAttributes="Bold" CornerRadius="20" Margin="0,30,10,0" BackgroundColor="ForestGreen" Grid.Column="2" Grid.Row="11"/>
 
                 </Grid>
             </StackLayout>

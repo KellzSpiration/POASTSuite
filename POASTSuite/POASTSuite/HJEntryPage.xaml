@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.HJEntryPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <StackLayout BackgroundColor="#fcba20 " Margin="10,10,10,10">
+                <Label TextColor="Black" FontSize="29" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" Text="WELCOME TO HOOKE AND &#x0a;JEEVE'S  METHOD"/>
+            </StackLayout>
+            <Label/>
+            <Label FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"
+               HorizontalOptions="Center" TextColor="Black" Text="Please select a question from the list below"/>
+            <Label/>
+            <Label/>
+            <StackLayout Margin="20,15,20,0" BackgroundColor="GhostWhite" >
+                <Grid RowSpacing="30" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="Btn1" Clicked="Btn1_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="1" TextColor="Black" 
+                        Grid.Column="0" Grid.Row="0"/>
+                    <Button x:Name="Btn2" Clicked="Btn2_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="2" TextColor="Black" 
+                        Grid.Column="1" Grid.Row="0"/>
+                    <Button x:Name="Btn3" Clicked="Btn3_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="3" TextColor="Black"
+                        Grid.Column="2" Grid.Row="0"/>
+
+                    <Button x:Name="Btn4" Clicked="Btn4_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="4" TextColor="Black"
+                        Grid.Column="0" Grid.Row="1"/>
+                    <Button x:Name="Btn5" Clicked="Btn5_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="5" TextColor="Black"
+                        Grid.Column="1" Grid.Row="1"/>
+                    <Button x:Name="Btn6" Clicked="Btn6_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="6" TextColor="Black"
+                        Grid.Column="2" Grid.Row="1"/>
+
+                    <Button x:Name="Btn7" Clicked="Btn7_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20"  Text="7" TextColor="Black"
+                        Grid.Column="0" Grid.Row="2"/>
+                    <Button x:Name="Btn8" Clicked="Btn8_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="8" TextColor="Black"
+                        Grid.Column="1" Grid.Row="2"/>
+                    <Button x:Name="Btn9" Clicked="Btn9_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="9" TextColor="Black"
+                        Grid.Column="2" Grid.Row="2"/>
+
+                    <Button x:Name="Btn10" Clicked="Btn10_Clicked"  CornerRadius="15" 
+                        BackgroundColor="#fcba20" Text="10" TextColor="Black"
+                        Grid.Column="0" Grid.Row="3"/>
+                    <Button CornerRadius="15" BackgroundColor="#fcba20" Text="11" 
+                        TextColor="Black" Grid.Column="1" Grid.Row="3"/>
+                    <Button CornerRadius="15" BackgroundColor="#fcba20" Text="12"
+                        TextColor="Black" Grid.Column="2" Grid.Row="3"/>
+
+                    <Button CornerRadius="15" BackgroundColor="#fcba20" Text="13"
+                        TextColor="Black" Grid.Column="0" Grid.Row="4"/>
+                    <Button CornerRadius="15" BackgroundColor="#fcba20" Text="14" 
+                        TextColor="Black" Grid.Column="1" Grid.Row="4"/>
+                    <Button CornerRadius="15" BackgroundColor="#fcba20" Text="15" 
+                        TextColor="Black" Grid.Column="2" Grid.Row="4"/>
+
+
+
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

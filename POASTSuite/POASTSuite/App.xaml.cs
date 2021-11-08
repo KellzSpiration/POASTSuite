@@ -1,8 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using POASTSuite.Services;
-using POASTSuite.Views;
+
 
 namespace POASTSuite
 {
@@ -12,8 +11,8 @@ namespace POASTSuite
         public App()
         {
             InitializeComponent();
+          //  DependencyService.Register<MockDataStore>();
 
-            
             MainPage = new NavigationPage(new PoastMainPage());
         }
 

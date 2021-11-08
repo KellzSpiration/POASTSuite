@@ -7,11 +7,14 @@
 
   <ItemGroup>
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="HJEntryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\GradePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -21,13 +24,31 @@
     <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\IterationFour.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\IterationOne.xaml">
+    <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\IterationOneQ5.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\IterationThree.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QueestionFive\IterationTwo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\GradePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\IterationFive.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\IterationFour.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\IterationOneQ8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\IterationThree.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionEight\IterationTwo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\GradePage.xaml">
@@ -39,13 +60,31 @@
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\IterationFour.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\IterationOne.xaml">
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\IterationOneQ4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\IterationThree.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionFour\IterationTwo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\GradePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\IterationFive.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\IterationFour.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\IterationOneQ9.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\IterationThree.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionNine\IterationTwo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionOne\FifthIteration1.xaml">
@@ -66,6 +105,24 @@
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionOne\ThirdIteration1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\GradePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\IterationFive.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\IterationFour.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\IterationOneQ7.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\IterationThree.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSeven\IterationTwo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\GradePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -75,13 +132,31 @@
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\IterationFour.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\IterationOne.xaml">
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\IterationOneQ6.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\IterationThree.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionSix\IterationTwo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\GradePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\IterationFive.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\IterationFour.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\IterationOneQ10.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\IterationThree.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionTen\IterationTwo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionThree\GradePage.xaml">
@@ -96,7 +171,7 @@
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionThree\IterationFour.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HookeAndJeevesModule\QuestionThree\IterationOne.xaml">
+    <EmbeddedResource Update="HookeAndJeevesModule\QuestionThree\IterationOneQ3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HookeAndJeevesModule\QuestionThree\IterationTwo.xaml">
@@ -135,12 +210,5 @@
     <EmbeddedResource Update="WelcomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="HookeAndJeevesModule\QuestionTen\" />
-    <Folder Include="HookeAndJeevesModule\QuestionNine\" />
-    <Folder Include="HookeAndJeevesModule\QuestionEight\" />
-    <Folder Include="HookeAndJeevesModule\QuestionSeven\" />
   </ItemGroup>
 </Project>

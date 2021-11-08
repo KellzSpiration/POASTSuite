@@ -63,7 +63,7 @@
 
                     <StackLayout Grid.Row="3" Margin=" 50,-1">
                         <Button x:Name="WelcomeStartTechniqueButton" Text="Start Module" TextColor="White" IsEnabled="True" CornerRadius="20" BackgroundColor="Black"  FontSize="20" FontAttributes="Bold" Clicked="WelcomeStartTechniqueButton_Clicked"  Margin="0,0,0,10" />
-                        <Button x:Name="WelcomeLogoutButton" Text="LOGOUT" TextColor="White" IsEnabled="True" CornerRadius="20" BackgroundColor="Black"  FontSize="20" FontAttributes="Bold" Clicked="WelcomeLogoutButton_Clicked" />
+                        <Button x:Name="WelcomeLogoutButton" Text="LOGOUT" TextColor="White" IsEnabled="True" CornerRadius="20" BackgroundColor="Black"  FontSize="20" FontAttributes="Bold" Clicked="WelcomeLogoutButton_Clicked"/>
                     </StackLayout>
                 </Grid>
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POASTSuite.HookeAndJeevesModule.QuestionSeven;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,7 @@ namespace POASTSuite.HookeAndJeevesModule.QueestionFive
 
       async  private void ExitHJModule_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new IterationOne());
+            await Navigation.PushModalAsync(new IterationOneQ5());
         }
     }
 }

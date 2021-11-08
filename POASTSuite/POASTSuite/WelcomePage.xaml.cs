@@ -26,7 +26,7 @@ namespace POASTSuite
                 neldermeadcheckbox.IsEnabled = false;
                 DfpCheckbox.IsEnabled = false;
                 flectherandreevescheckbox.IsEnabled = false;
-             //   Navigation.PushAsync(new MainPage());
+               Navigation.PushAsync(new HJEntryPage());
                 //Kaycee please change MainPage to your very first page for HJ
             }
             else if (neldermeadcheckbox.IsChecked)
@@ -60,6 +60,11 @@ namespace POASTSuite
                 DisplayAlert("Error selecting a Module", "Please check (tick) a box", "Ok", "Cancel");
             }
 
+        }
+
+       async private void WelcomeLogoutButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
         }
     }
 }

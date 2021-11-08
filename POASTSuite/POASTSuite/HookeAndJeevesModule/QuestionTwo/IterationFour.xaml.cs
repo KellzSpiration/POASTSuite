@@ -21,7 +21,9 @@ namespace POASTSuite.HookeAndJeevesModule.QuestionTwo
             r = score3;
         }
 
-       async private void BtnNext_Clicked(object sender, EventArgs e)
+      
+
+       async private void BtnNext_Clicked_1(object sender, EventArgs e)
         {
             var parameter2 = new Parameter2(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0.125, 0.125, 0, 0);  // object instance of the Parameter class
 
@@ -189,7 +191,6 @@ namespace POASTSuite.HookeAndJeevesModule.QuestionTwo
 
             // Bp4.Text = score4.ToString();
             await Navigation.PushModalAsync(new IterationFive(score4));
-
         }
     }
     }

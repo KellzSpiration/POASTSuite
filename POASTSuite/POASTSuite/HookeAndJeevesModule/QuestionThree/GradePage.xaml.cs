@@ -26,7 +26,7 @@ namespace POASTSuite.HookeAndJeevesModule.QuestionThree
 
       async  private void ExitHJModule_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new IterationOne());
+            await Navigation.PushModalAsync(new IterationOneQ3());
         }
     }
 }
