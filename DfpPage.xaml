@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="POASTSuite.DFPModule.DfpPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout  BackgroundColor="Black">
+                <StackLayout BackgroundColor="Black">
+                    <Label Text="POAST Suite 1.0                               DFP MODULE" HorizontalOptions="CenterAndExpand" 
+                       TextColor="Yellow"
+                       FontAttributes="Bold" FontSize="33" Margin="4"/>
+
+                </StackLayout>
+                <Label Text="OPTIMIZATION  ||  MINIMIZATION PROBLEMS  ||  GRADIENT METHODS" 
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       Margin="0"
+                       HorizontalTextAlignment="Center"/>
+                <StackLayout BackgroundColor="Black">
+
+
+                    <Label Text="Davidon-Fletcher-Powell Module" HorizontalOptions="CenterAndExpand"
+                           TextColor="White" FontAttributes="Bold" FontSize="25"
+                           />
+
+                </StackLayout>
+
+
+                <Label Text="Please move to the next page " 
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Margin="0"
+                   HorizontalTextAlignment="Center"/>
+
+
+
+                <StackLayout Margin="0,120">
+                    <Button x:Name="NextButtonSelectionQuestionPage" BorderWidth="4" BorderColor="Yellow" Text="NEXT" IsEnabled="True" Margin="50,10,50,10" CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="20" BackgroundColor="Black" TextColor="Yellow" Clicked="NextButtonSelectionQuestionPage_Clicked"
+                         />
+
+                    <Button x:Name="BackButtonSelectQuestionPage" BorderWidth="4" BorderColor="Yellow" Text="BACK" IsEnabled="True" Margin="50,10,50,10" CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="20" BackgroundColor="Black" TextColor="Yellow" Clicked="BackButtonSelectQuestionPage_Clicked"
+                         />
+
+                </StackLayout>
+
+
+                <Label Text="Developed by Samuel Jaja || Supervised by Prof A.O Kuye" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" TextColor="White"  Margin="5"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
