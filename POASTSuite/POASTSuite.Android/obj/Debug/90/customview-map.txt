@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @string/appbar_scrolling_view_behavior;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\82\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\82\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
@@ -44,7 +43,7 @@ translate;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\PO
 translate;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\82\jl\res\anim\exittoleft.xml
 translate;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\82\jl\res\anim\exittoright.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\Asus\source\repos\Project Repository\POASTSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\82\jl\res\layout\rootlayout.xml
-=======
+
 @string/appbar_scrolling_view_behavior;C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\40\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\KellzSpiration\source\repos\PoastSuite\POASTSuite\POASTSuite.Android\obj\Debug\90\lp\40\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
