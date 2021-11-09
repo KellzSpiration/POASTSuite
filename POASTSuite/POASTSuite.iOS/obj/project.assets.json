@@ -1439,24 +1439,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KellzSpiration\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
       "projectName": "POASTSuite.iOS",
       "projectPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
       "packagesPath": "C:\\Users\\KellzSpiration\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.iOS\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
+      "projectName": "POASTSuite.iOS",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.iOS\\POASTSuite.iOS.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.iOS\\obj\\",
+>>>>>>> 86923eae54c1ec699897833278804428db78d7c0
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\KellzSpiration\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1470,8 +1481,13 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj": {
               "projectPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj"
+=======
+            "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj": {
+              "projectPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj"
+>>>>>>> 86923eae54c1ec699897833278804428db78d7c0
             }
           }
         }
