@@ -7,7 +7,7 @@
              x:Class="POASTSuite.NelderAndMead.NeldQ2.SolutionPage2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="The solutions to the problem will be displayed here"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
