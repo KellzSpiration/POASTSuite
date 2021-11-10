@@ -350,7 +350,7 @@ namespace POASTSuite.NelderAndMead.NeldQ3
 
                 double T2 = (a2 + b2 + c2 + d2 + g2 + v) / 1;
                 //worst.Text = ((a + b + c) / 1).ToString();
-                await Navigation.PushModalAsync(new ScorePage3(T2));
+                await Navigation.PushModalAsync(new GradePage3(T2));
             }
         }
     }
