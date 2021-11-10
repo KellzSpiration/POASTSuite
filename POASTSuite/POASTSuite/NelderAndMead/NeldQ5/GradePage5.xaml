@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="POASTSuite.NelderAndMead.NeldQ5.GradePage5">
+    <StackLayout BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"    >
+
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <Label Text="GRADE" FontAttributes="Bold" FontSize="69" TextColor="DarkGoldenrod" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label x:Name="Score" Text="" FontAttributes="Bold" FontSize="59" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label x:Name="quote" FontSize="33" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+            <Label />
+
+            <Button  TextColor="DarkGoldenrod"  BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
+                 CornerRadius="10"  FontSize="30" FontAttributes="Bold"  Text="SCORE" x:Name="BtnNxt4" Clicked="BtnNxt4_Clicked"  />
+
+            <Button  TextColor="DarkGoldenrod"  BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
+                 CornerRadius="10"  FontSize="30" FontAttributes="Bold"  Text="Solution to problem" x:Name="BtnSolution" Clicked="BtnSolution_Clicked"  />
+
+            <Button x:Name="SelectionPage5" Clicked="SelectionPage5_Clicked" Text="Home Page" BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
+                    CornerRadius="10" FontSize="30" FontAttributes="Bold" TextColor="DarkGoldenrod" />
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
