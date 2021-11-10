@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using POASTSuite.NelderAndMead;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -35,7 +35,7 @@ namespace POASTSuite
                 DfpCheckbox.IsEnabled = false;
                 flectherandreevescheckbox.IsEnabled = false;
                 hookesandjeevesCheckbox.IsEnabled = false;
-                //Navigation.PushAsync(new NelderAndMead());
+                Navigation.PushAsync(new ProbSelPage());
                 //Belem please change DfpPage6 to your very first page for NM
             }
             else if (DfpCheckbox.IsChecked)

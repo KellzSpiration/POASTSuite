@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="POASTSuite.NelderAndMead.ProbSelPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Margin="10,10,10,10"  >
+
+
+                <Frame BackgroundColor="Goldenrod" CornerRadius="15" >
+                    <Label   Text="WELCOME TO NELDER AND MEAD OPTIMIZATION METHOD" TextColor="Black" FontSize="20" FontAttributes="Bold"  HorizontalTextAlignment="Center" HorizontalOptions="Center" >
+
+                    </Label>
+                </Frame>
+
+                <Frame>
+                    <Label Text="Please Pick a Problem Below"  TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Large"/>
+                </Frame>
+
+                <Grid Margin="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="55" ColumnSpacing="4">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="1" x:Name="btn1" Clicked="btn1_Clicked"  Grid.Column="0" Grid.Row="0"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="2" x:Name="btn2" Clicked="btn2_Clicked" Grid.Column="1" Grid.Row="0"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="3" x:Name="btn3" Clicked="btn3_Clicked" Grid.Column="2" Grid.Row="0"/>
+
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="4" x:Name="btn4" Clicked="btn4_Clicked" Grid.Column="0" Grid.Row="1"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="5" x:Name="btn5" Clicked="btn5_Clicked" Grid.Column="1" Grid.Row="1"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="6" x:Name="btn6" Clicked="btn6_Clicked" Grid.Column="2" Grid.Row="1"/>
+
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="7" x:Name="btn7" Clicked="btn7_Clicked" Grid.Column="0" Grid.Row="2"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="8" x:Name="btn8" Clicked="btn8_Clicked" Grid.Column="1" Grid.Row="2"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="9" x:Name="btn9" Clicked="btn9_Clicked" Grid.Column="2" Grid.Row="2"/>
+
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="10" x:Name="btn10" Clicked="btn10_Clicked" Grid.Column="0" Grid.Row="3"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="11" x:Name="btn11" Clicked="btn11_Clicked"  Grid.Column="1" Grid.Row="3"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="12" x:Name="btn12" Clicked="btn12_Clicked" Grid.Column="2" Grid.Row="3"/>
+                    
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="13" x:Name="btn13" Clicked="btn13_Clicked" Grid.Column="0" Grid.Row="4"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="14" x:Name="btn14" Clicked="btn14_Clicked"  Grid.Column="1" Grid.Row="4"/>
+                    <Button  CornerRadius="15" BackgroundColor="#fcba20" TextColor="Black" Text="15" x:Name="btn15" Clicked="btn15_Clicked"  Grid.Column="2" Grid.Row="4"/>
+
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

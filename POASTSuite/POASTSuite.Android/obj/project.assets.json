@@ -2166,35 +2166,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Source\\Repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
       "projectName": "POASTSuite.Android",
-      "projectPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
-      "packagesPath": "C:\\Users\\KellzSpiration\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
-      "projectName": "POASTSuite.Android",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite.Android\\obj\\",
->>>>>>> 86923eae54c1ec699897833278804428db78d7c0
+      "projectPath": "C:\\Users\\dell\\Source\\Repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\POASTSuite.Android.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\Source\\Repos\\PoastSuite\\POASTSuite\\POASTSuite.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2208,13 +2197,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj": {
-              "projectPath": "C:\\Users\\KellzSpiration\\source\\repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj"
-=======
-            "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Project Repository\\POASTSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj"
->>>>>>> 86923eae54c1ec699897833278804428db78d7c0
+            "C:\\Users\\dell\\Source\\Repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj": {
+              "projectPath": "C:\\Users\\dell\\Source\\Repos\\PoastSuite\\POASTSuite\\POASTSuite\\POASTSuite.csproj"
             }
           }
         }
