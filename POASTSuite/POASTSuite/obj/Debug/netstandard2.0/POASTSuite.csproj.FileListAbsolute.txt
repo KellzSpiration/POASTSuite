@@ -169,3 +169,15 @@ C:\Users\dell\Source\Repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandar
 C:\Users\dell\Source\Repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.dll
 C:\Users\dell\Source\Repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\ref\POASTSuite.dll
 C:\Users\dell\Source\Repos\POASTSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\POASTSuite.pdb
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ3\GradePage3.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ3\Q3It1.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ3\Q3It2.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ3\Q3It3.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ3\SolutionPage3.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ4\GradePage4.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ4\Q4It1.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ4\Q4It2.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ4\Q4It3.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ4\SolutionPage4.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ5\Q5It1.xaml.g.cs
+C:\Users\dell\Source\Repos\PoastSuite\POASTSuite\POASTSuite\obj\Debug\netstandard2.0\NelderAndMead\NeldQ5\Q5It2.xaml.g.cs

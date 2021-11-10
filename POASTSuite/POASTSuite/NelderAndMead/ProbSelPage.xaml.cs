@@ -7,6 +7,7 @@ using POASTSuite.NelderAndMead.NeldQ1;
 using POASTSuite.NelderAndMead.NeldQ2;
 using POASTSuite.NelderAndMead.NeldQ3;
 using POASTSuite.NelderAndMead.NeldQ4;
+using POASTSuite.NelderAndMead.NeldQ5;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -40,9 +41,9 @@ namespace POASTSuite.NelderAndMead
             await Navigation.PushModalAsync(new Q4It1());
         }
 
-        private void btn5_Clicked(object sender, EventArgs e)
+        private async void btn5_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q5It1());
         }
 
         private void btn6_Clicked(object sender, EventArgs e)
