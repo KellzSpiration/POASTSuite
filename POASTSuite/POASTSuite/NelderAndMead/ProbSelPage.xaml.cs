@@ -1,13 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using POASTSuite.NelderAndMead.NeldQ1;
+using POASTSuite.NelderAndMead.NeldQ10;
 using POASTSuite.NelderAndMead.NeldQ2;
 using POASTSuite.NelderAndMead.NeldQ3;
 using POASTSuite.NelderAndMead.NeldQ4;
 using POASTSuite.NelderAndMead.NeldQ5;
+using POASTSuite.NelderAndMead.NeldQ6;
+using POASTSuite.NelderAndMead.NeldQ7;
+using POASTSuite.NelderAndMead.NeldQ8;
+using POASTSuite.NelderAndMead.NeldQ9;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -46,29 +47,29 @@ namespace POASTSuite.NelderAndMead
             await Navigation.PushModalAsync(new Q5It1());
         }
 
-        private void btn6_Clicked(object sender, EventArgs e)
+        private async void btn6_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q6It1());
         }
 
-        private void btn7_Clicked(object sender, EventArgs e)
+        private async void btn7_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q7It1());
         }
 
-        private void btn8_Clicked(object sender, EventArgs e)
+        private async void btn8_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q8It1());
         }
 
-        private void btn9_Clicked(object sender, EventArgs e)
+        private async void btn9_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q9It1());
         }
 
-        private void btn10_Clicked(object sender, EventArgs e)
+        private async void btn10_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q10It1());
         }
 
         private void btn11_Clicked(object sender, EventArgs e)

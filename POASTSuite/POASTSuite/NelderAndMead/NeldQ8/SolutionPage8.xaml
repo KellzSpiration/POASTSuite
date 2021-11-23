@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="POASTSuite.NelderAndMead.NeldQ1.SolutionPage1">
+             x:Class="POASTSuite.NelderAndMead.NeldQ8.SolutionPage8">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="The solutions to the problem will be displayed here!"
