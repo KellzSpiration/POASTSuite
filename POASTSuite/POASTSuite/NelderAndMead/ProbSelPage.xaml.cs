@@ -1,5 +1,6 @@
 ﻿using System;
 using POASTSuite.NelderAndMead.NeldQ1;
+using POASTSuite.NelderAndMead.NeldQ10;
 using POASTSuite.NelderAndMead.NeldQ2;
 using POASTSuite.NelderAndMead.NeldQ3;
 using POASTSuite.NelderAndMead.NeldQ4;
@@ -66,9 +67,9 @@ namespace POASTSuite.NelderAndMead
             await Navigation.PushModalAsync(new Q9It1());
         }
 
-        private void btn10_Clicked(object sender, EventArgs e)
+        private async void btn10_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Q10It1());
         }
 
         private void btn11_Clicked(object sender, EventArgs e)
