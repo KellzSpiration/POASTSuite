@@ -49,7 +49,7 @@ namespace POASTSuite.NelderAndMead.NeldQ4
 
         private async void SelectionPage4_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new WelcomePage(greeting));
+            await Navigation.PushModalAsync(new PoastMainPage());
         }
     }
 }

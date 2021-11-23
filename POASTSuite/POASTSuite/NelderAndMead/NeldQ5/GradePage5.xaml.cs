@@ -19,12 +19,7 @@ namespace POASTSuite.NelderAndMead.NeldQ5
             score = T2;
         }
 
-        private async void BtnNxt4_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new PoastMainPage());
-        }
-
-        private void BtnSolution_Clicked(object sender, EventArgs e)
+        private void BtnNxt4_Clicked(object sender, EventArgs e)
         {
             if (score == 100)
             {
@@ -46,9 +41,15 @@ namespace POASTSuite.NelderAndMead.NeldQ5
             Score.Text = score + "%".ToString();
         }
 
-        private async void SelectionPage5_Clicked(object sender, EventArgs e)
+        private async void BtnSolution_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new SolutionPage5());
+           
+        }
+
+        private async void SelectionPage5_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new PoastMainPage());
         }
     }
 }
