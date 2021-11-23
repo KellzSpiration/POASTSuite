@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="POASTSuite.NelderAndMead.NeldQ7.Q7It3">
+             x:Class="POASTSuite.NelderAndMead.NeldQ9.Q9It3">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="White" Margin="10,10,10,10" Spacing="8" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" >
@@ -14,7 +14,7 @@
                     JustifyContent="Start"></FlexLayout>
 
                 <Label Text="NELDER AND MEAD MODULE" TextColor="DarkGoldenrod" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="End"  />
-                <Label Text="Minimize F(x)= 3x1x2+0.5x2^2+4x1+3x2 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                <Label Text="Minimize F(x)= 2x1^2+2.5x1 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
                 <Label Text="Use a start point x1=(-1,-2),  t=1  e=0.001  n=2 " TextColor="Black" FontSize="15" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
 
                 <Grid>

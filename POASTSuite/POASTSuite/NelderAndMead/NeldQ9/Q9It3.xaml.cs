@@ -7,19 +7,17 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace POASTSuite.NelderAndMead.NeldQ7
+namespace POASTSuite.NelderAndMead.NeldQ9
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Q7It3 : ContentPage
+    public partial class Q9It3 : ContentPage
     {
         private double v;
-        public Q7It3(double T1)
+        public Q9It3(double T2)
         {
             InitializeComponent();
-            v = T1;
+            v = T2;
         }
-
-
         public static double Centroid(double Xoa, double Xob, double A, double B, double C, double D, double E, double F)
         {
             double fo = Math.Round((((A * (Math.Pow(Xoa, 2))) + (B * Xoa * Xob)) + (C * Math.Pow(Xob, 2)) + (D * (Xoa)) + (E * (Xob)) + F), 4);
@@ -47,7 +45,7 @@ namespace POASTSuite.NelderAndMead.NeldQ7
         }
         private async void BtnNxt3_Clicked(object sender, EventArgs e)
         {
-            double t = 1, n = 2, p, q, f1, f2, f3, A = 0, B = 3, C = 0.5, D = 4, E = 3, F = 0, Bpa, Bpb, Wpa, Wpb, Otpa, Otpb;
+            double t = 1, n = 2, p, q, f1, f2, f3, A = 2, B = 0, C = 0, D = 2.5, E = 0, F = 0, Bpa, Bpb, Wpa, Wpb, Otpa, Otpb;
             double Xoa, Xob, Xra, Xrb, Xea, Xeb, Xc2a, Xc2b, Xc1a, Xc1b, ter;
             double fo = 0;
 
@@ -320,7 +318,7 @@ namespace POASTSuite.NelderAndMead.NeldQ7
 
                 if (isEntryEmpty3)
                 {
-                    c2 = 0;
+                    c2 = 1;
                 }
                 else if (Math.Abs(double.Parse(cont.Text) - ContExpSht[3]) <= 0.06)
                 {
@@ -352,7 +350,7 @@ namespace POASTSuite.NelderAndMead.NeldQ7
 
                 double T2 = (a2 + b2 + c2 + d2 + g2 + v) / 1;
                 //worst.Text = ((a + b + c) / 1).ToString();
-                await Navigation.PushModalAsync(new GradePage7(T2));
+                await Navigation.PushModalAsync(new GradePage9(T2));
             }
         }
     }

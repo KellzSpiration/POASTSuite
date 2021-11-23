@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ7.Q7It3.xaml", "NelderAndMead/NeldQ7/Q7It3.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ7.Q7It3))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ8.Q8It2.xaml", "NelderAndMead/NeldQ8/Q8It2.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ8.Q8It2))]
 
-namespace POASTSuite.NelderAndMead.NeldQ7 {
+namespace POASTSuite.NelderAndMead.NeldQ8 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ7\\Q7It3.xaml")]
-    public partial class Q7It3 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ8\\Q8It2.xaml")]
+    public partial class Q8It2 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.FlexLayout Flexlayout;
@@ -35,18 +35,18 @@ namespace POASTSuite.NelderAndMead.NeldQ7 {
         private global::Xamarin.Forms.Entry Reflect;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button BtnNxt3;
+        private global::Xamarin.Forms.Button BtnNxt2;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Q7It3));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Q8It2));
             Flexlayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.FlexLayout>(this, "Flexlayout");
             worst = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "worst");
             best = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "best");
             other = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "other");
             cont = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "cont");
             Reflect = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Reflect");
-            BtnNxt3 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnNxt3");
+            BtnNxt2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnNxt2");
         }
     }
 }

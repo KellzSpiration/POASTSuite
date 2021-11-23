@@ -14,7 +14,7 @@
                     JustifyContent="Start"></FlexLayout>
 
                 <Label Text="NELDER AND MEAD MODULE" TextColor="DarkGoldenrod" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="End"  />
-                <Label Text="Minimize F(x)= x1^2-2x1x2-x1+1.5x2+3 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                <Label Text="Minimize F(x)= 3x1x2+0.5x2^2+4x1+3x2 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
                 <Label Text="Use a start point x1=(-1,-2),  t=1  e=0.001  n=2 " TextColor="Black" FontSize="15" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
 
                 <Grid>

@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="POASTSuite.NelderAndMead.NeldQ7.GradePage7">
+             x:Class="POASTSuite.NelderAndMead.NeldQ8.GradePage8">
     <StackLayout BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"    >
 
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
@@ -19,8 +19,8 @@
             <Button  TextColor="DarkGoldenrod"  BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
                  CornerRadius="10"  FontSize="30" FontAttributes="Bold"  Text="Solution to problem" x:Name="BtnSolution" Clicked="BtnSolution_Clicked"  />
 
-            <Button x:Name="SelectionPage7" Clicked="SelectionPage7_Clicked" Text="Home Page" BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
-                    CornerRadius="10" FontSize="30" FontAttributes="Bold" TextColor="DarkGoldenrod" />
+            <Button x:Name="SelectionPage8" Text="Home Page" BorderWidth="4" BorderColor="DarkGoldenrod"  IsEnabled="True"
+                 Clicked="SelectionPage8_Clicked"  CornerRadius="10" FontSize="30" FontAttributes="Bold" TextColor="DarkGoldenrod" />
 
         </StackLayout>
 

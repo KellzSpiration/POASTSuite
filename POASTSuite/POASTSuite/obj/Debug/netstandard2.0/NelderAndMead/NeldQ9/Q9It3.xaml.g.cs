@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ7.Q7It3.xaml", "NelderAndMead/NeldQ7/Q7It3.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ7.Q7It3))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ9.Q9It3.xaml", "NelderAndMead/NeldQ9/Q9It3.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ9.Q9It3))]
 
-namespace POASTSuite.NelderAndMead.NeldQ7 {
+namespace POASTSuite.NelderAndMead.NeldQ9 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ7\\Q7It3.xaml")]
-    public partial class Q7It3 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ9\\Q9It3.xaml")]
+    public partial class Q9It3 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.FlexLayout Flexlayout;
@@ -39,7 +39,7 @@ namespace POASTSuite.NelderAndMead.NeldQ7 {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Q7It3));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Q9It3));
             Flexlayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.FlexLayout>(this, "Flexlayout");
             worst = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "worst");
             best = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "best");

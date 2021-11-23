@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="POASTSuite.NelderAndMead.NeldQ7.Q7It3">
+             x:Class="POASTSuite.NelderAndMead.NeldQ8.Q8It1">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="White" Margin="10,10,10,10" Spacing="8" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" >
@@ -14,7 +14,7 @@
                     JustifyContent="Start"></FlexLayout>
 
                 <Label Text="NELDER AND MEAD MODULE" TextColor="DarkGoldenrod" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="End"  />
-                <Label Text="Minimize F(x)= 3x1x2+0.5x2^2+4x1+3x2 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                <Label Text="Minimize F(x)= 0.5x1^2+x2^2+1.5x1+3x2 " TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
                 <Label Text="Use a start point x1=(-1,-2),  t=1  e=0.001  n=2 " TextColor="Black" FontSize="15" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
 
                 <Grid>
@@ -30,7 +30,7 @@
                         </Grid.ColumnDefinitions>
                     </Grid>
                     <StackLayout  Margin="90,5,90,0" BackgroundColor="DarkGoldenrod">
-                        <Label Text="ITERATION 3" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center">
+                        <Label Text="ITERATION 1" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center">
                         </Label>
 
                     </StackLayout>
@@ -112,7 +112,7 @@
                     </Grid>
 
 
-                    <Button  TextColor="White" BackgroundColor="DarkGoldenrod" CornerRadius="10"  FontSize="15" FontAttributes="Bold"  Text="NEXT" x:Name="BtnNxt3" Clicked="BtnNxt3_Clicked" Grid.Row="1" Grid.Column="2" />
+                    <Button  TextColor="White" BackgroundColor="DarkGoldenrod" CornerRadius="10"  FontSize="15" FontAttributes="Bold"  Text="NEXT" x:Name="BtnNxt1" Clicked="BtnNxt1_Clicked" Grid.Row="1" Grid.Column="2" />
 
 
                 </Grid>

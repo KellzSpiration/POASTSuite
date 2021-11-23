@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ7.GradePage7.xaml", "NelderAndMead/NeldQ7/GradePage7.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ7.GradePage7))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("POASTSuite.NelderAndMead.NeldQ9.GradePage9.xaml", "NelderAndMead/NeldQ9/GradePage9.xaml", typeof(global::POASTSuite.NelderAndMead.NeldQ9.GradePage9))]
 
-namespace POASTSuite.NelderAndMead.NeldQ7 {
+namespace POASTSuite.NelderAndMead.NeldQ9 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ7\\GradePage7.xaml")]
-    public partial class GradePage7 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("NelderAndMead\\NeldQ9\\GradePage9.xaml")]
+    public partial class GradePage9 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label Score;
@@ -29,16 +29,16 @@ namespace POASTSuite.NelderAndMead.NeldQ7 {
         private global::Xamarin.Forms.Button BtnSolution;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button SelectionPage7;
+        private global::Xamarin.Forms.Button SelectionPage9;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GradePage7));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GradePage9));
             Score = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Score");
             quote = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "quote");
             BtnNxt4 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnNxt4");
             BtnSolution = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnSolution");
-            SelectionPage7 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "SelectionPage7");
+            SelectionPage9 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "SelectionPage9");
         }
     }
 }

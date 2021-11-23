@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace POASTSuite.NelderAndMead.NeldQ7
+namespace POASTSuite.NelderAndMead.NeldQ8
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class GradePage7 : ContentPage
+    public partial class GradePage8 : ContentPage
     {
         private double score;
-        public GradePage7(double T2)
+        public GradePage8(double T2)
         {
             InitializeComponent();
             score = T2;
@@ -43,10 +43,11 @@ namespace POASTSuite.NelderAndMead.NeldQ7
 
         private async void BtnSolution_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new SolutionPage7());
+            await Navigation.PushModalAsync(new SolutionPage8());
         }
+    
 
-        private async void SelectionPage7_Clicked(object sender, EventArgs e)
+        private async void SelectionPage8_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new PoastMainPage());
         }

@@ -7,19 +7,17 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace POASTSuite.NelderAndMead.NeldQ7
+namespace POASTSuite.NelderAndMead.NeldQ9
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Q7It3 : ContentPage
+    public partial class Q9It2 : ContentPage
     {
-        private double v;
-        public Q7It3(double T1)
+        private double s;
+        public Q9It2(double T)
         {
             InitializeComponent();
-            v = T1;
+            s = T;
         }
-
-
         public static double Centroid(double Xoa, double Xob, double A, double B, double C, double D, double E, double F)
         {
             double fo = Math.Round((((A * (Math.Pow(Xoa, 2))) + (B * Xoa * Xob)) + (C * Math.Pow(Xob, 2)) + (D * (Xoa)) + (E * (Xob)) + F), 4);
@@ -45,9 +43,9 @@ namespace POASTSuite.NelderAndMead.NeldQ7
             double fc = Math.Round((((A * (Math.Pow(Xc2a, 2))) + (B * Xc2a * Xc2b)) + (C * Math.Pow(Xc2b, 2)) + (D * (Xc2a)) + (E * (Xc2b)) + F), 4);
             return fc;
         }
-        private async void BtnNxt3_Clicked(object sender, EventArgs e)
+        private async void BtnNxt2_Clicked(object sender, EventArgs e)
         {
-            double t = 1, n = 2, p, q, f1, f2, f3, A = 0, B = 3, C = 0.5, D = 4, E = 3, F = 0, Bpa, Bpb, Wpa, Wpb, Otpa, Otpb;
+            double t = 1, n = 2, p, q, f1, f2, f3, A = 2, B = 0, C = 0, D = 2.5, E = 0, F = 0, Bpa, Bpb, Wpa, Wpb, Otpa, Otpb;
             double Xoa, Xob, Xra, Xrb, Xea, Xeb, Xc2a, Xc2b, Xc1a, Xc1b, ter;
             double fo = 0;
 
@@ -266,93 +264,93 @@ namespace POASTSuite.NelderAndMead.NeldQ7
                 //  Console.WriteLine("Termination ={0}", ter);
 
 
-                int d2;
+                int d1;
                 bool isEntryEmpty4 = string.IsNullOrEmpty(worst.Text);
 
                 if (isEntryEmpty4)
                 {
-                    d2 = 0;
+                    d1 = 0;
                 }
-                else if (Math.Abs(double.Parse(worst.Text) - Wp[3]) <= 0.06)
+                else if (Math.Abs(double.Parse(worst.Text) - Wp[2]) <= 0.06)
                 {
-                    d2 = 1;
+                    d1 = 1;
                 }
                 else
                 {
-                    d2 = 0;
+                    d1 = 0;
                 }
 
-                int a2;
+                int a1;
                 bool isEntryEmpty1 = string.IsNullOrEmpty(best.Text);
 
                 if (isEntryEmpty1)
                 {
-                    a2 = 0;
+                    a1 = 0;
                 }
-                else if (Math.Abs(double.Parse(best.Text) - Bp[3]) <= 0.06)
+                else if (Math.Abs(double.Parse(best.Text) - Bp[2]) <= 0.06)
                 {
-                    a2 = 1;
+                    a1 = 1;
                 }
                 else
                 {
-                    a2 = 0;
+                    a1 = 0;
                 }
 
-                int b2;
+                int b1;
                 bool isEntryEmpty2 = string.IsNullOrEmpty(other.Text);
 
                 if (isEntryEmpty2)
                 {
-                    b2 = 0;
+                    b1 = 0;
                 }
-                else if (Math.Abs(double.Parse(other.Text) - Otp[3]) <= 0.06)
+                else if (Math.Abs(double.Parse(other.Text) - Otp[2]) <= 0.06)
                 {
-                    b2 = 1;
+                    b1 = 1;
                 }
                 else
                 {
-                    b2 = 0;
+                    b1 = 0;
                 }
 
-
-                int c2;
+                int c1;
                 bool isEntryEmpty3 = string.IsNullOrEmpty(cont.Text);
 
                 if (isEntryEmpty3)
                 {
-                    c2 = 0;
+                    c1 = 0;
                 }
-                else if (Math.Abs(double.Parse(cont.Text) - ContExpSht[3]) <= 0.06)
+                else if (Math.Abs(double.Parse(cont.Text) - ContExpSht[2]) <= 0.06)
                 {
-                    c2 = 1;
+                    c1 = 1;
                 }
                 else
                 {
-                    c2 = 0;
+                    c1 = 0;
                 }
 
 
-                int g2;
+                int g1;
                 bool isEntryEmpty5 = string.IsNullOrEmpty(Reflect.Text);
 
                 if (isEntryEmpty5)
                 {
-                    g2 = 0;
+                    g1 = 0;
                 }
-                else if (Math.Abs(double.Parse(Reflect.Text) - Ref[3]) <= 0.06)
+                else if (Math.Abs(double.Parse(Reflect.Text) - Ref[2]) <= 0.06)
                 {
-                    g2 = 1;
+                    g1 = 1;
                 }
                 else
                 {
-                    g2 = 0;
+                    g1 = 0;
                 }
 
 
 
-                double T2 = (a2 + b2 + c2 + d2 + g2 + v) / 1;
+                double T1 = (a1 + b1 + c1 + d1 + g1 + s) / 1;
                 //worst.Text = ((a + b + c) / 1).ToString();
-                await Navigation.PushModalAsync(new GradePage7(T2));
+                await Navigation.PushModalAsync(new Q9It3(T1));
+
             }
         }
     }
